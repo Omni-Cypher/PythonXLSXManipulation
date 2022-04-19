@@ -231,9 +231,9 @@ def verify_address_US(street, street2, city, state, zipcode):
         '503': 'The server is not ready to handle the request.'
     }
 
-    key = '117558621224156981'
-    auth_id = 'c8a6aa41-a251-bff0-af93-3850eb302a59'
-    auth_token = 'x0GF5L04AkgOxCifBWE0'
+    key = ''
+    auth_id = ''
+    auth_token = ''
 
     req = f'https://us-street.api.smartystreets.com/street-address?auth-id={auth_id}&auth-token={auth_token}&street=' \
           f'{street_address}&city={city}&state={state}&candidates=10'
